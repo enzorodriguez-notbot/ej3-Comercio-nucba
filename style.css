@@ -104,3 +104,26 @@ body{
     font-family: ruthie;
 }
 
+.imagen{
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+}
+
+.galeria{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: .5rem;
+    row-gap: .5rem;
+    padding: 20px 20px;
+}
+
+
+.contenedor{
+    padding-left: 10%;
+    padding-right: 10%;
+}
