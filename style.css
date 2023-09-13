@@ -140,23 +140,41 @@ body{
 }
 
 .button-instagram{
-    padding: 20px 30px;
+    padding: 10px 10px;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 14px;
     letter-spacing: 5px;
     border-radius: 50px;
     color: #fff;
-    
     background: radial-gradient(circle at  10% 280%, 
     #fdf497 0%,
     #fdf497 15%,
     #fd5949 45%,
     #d6249f 70%,
     #6801a3 95%);
-    
-    /*background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
     background-position-x: 0.5s linear;
-    
+    width: 150px;
+    height: 38px;
+    display: inline-block;
+}
+
+
+.buttons{
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+}
+
+.button-facebook{
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 5px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #4267B2;
 }
