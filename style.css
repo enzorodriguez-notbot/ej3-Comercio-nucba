@@ -136,4 +136,27 @@ body{
     font-size: 30px;
     width: 100%;
     padding: 80px 0px 0px 0px; 
+   
+}
+
+.button-instagram{
+    padding: 20px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+    border-radius: 50px;
+    color: #fff;
+    
+    background: radial-gradient(circle at  10% 280%, 
+    #fdf497 0%,
+    #fdf497 15%,
+    #fd5949 45%,
+    #d6249f 70%,
+    #6801a3 95%);
+    
+    /*background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);*/
+    background-position-x: 0.5s linear;
+    
 }
