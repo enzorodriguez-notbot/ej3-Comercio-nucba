@@ -1,4 +1,32 @@
-@media(max-width: 767px){
+@media(max-width: 820px){
+    .header{
+       padding: 0; 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .header .logo img{
+        padding: 0;
+    }
+
+    #card-section{
+        padding: 0;
+    }
+
+
+
+
+    .buttons{
+        display: none;
+    }
+   
+   
+   
+   
+   
+   
+   
+   
     .footer-col{
       width: 50%;
       margin-bottom: 30px;
