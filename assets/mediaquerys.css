@@ -45,7 +45,7 @@
     
     padding: 0;
     border-bottom: 2px solid black;
-    max-width: 200px;
+    max-width: 400px;
     background: #fff0e5;
     font-variant: small-caps;
     text-shadow: 1px 1px black;
@@ -96,6 +96,14 @@
 .respmenu input:not(:checked) ~ .fa-times {
     display: none;
   }
+
+  .menu-container{
+    padding-right: 10%;
+    position: relative;
+    padding-top: 200px;
+  }
+
+  
 
   }
   
