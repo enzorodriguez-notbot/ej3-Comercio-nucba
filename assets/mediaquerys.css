@@ -101,7 +101,47 @@
     margin-top: 50PX;
   }
 
+  .title h1{
+    
+    font-size: 32px;
+    }
 
+    .hero-img img{
+        max-width: 150px;
+        border-radius: 0;
+    }
+
+    .hero-info p{
+        padding: 10px 5px;
+
+    }
+
+    #hero{
+        width: 95%;
+        margin: 2.5%;
+    }
+
+    .galeria {
+        padding: 5px 5px;
+    }
+
+    .contenedor{
+        padding: 2.5% 2.5%;
+    }
+
+    .separador h3{
+        padding: 10px 0px 0px 0px ;
+        width: 100%;
+        padding-left: 2.5%;
+        padding-right: 2.5;
+        font-size: 28px;
+        
+    }
+
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
 
   }
   
@@ -116,6 +156,7 @@
   @media (max-width: 700px) {
     .nav-links{
         display: none;
+
     }
   }
 
