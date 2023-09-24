@@ -127,7 +127,7 @@ body{
     padding-left: 10%;
     padding-right: 10%;
 }
-.separ ador{
+.separador{
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -301,3 +301,7 @@ ul{
 }
 
 
+#menu-toggle,
+.menu-label{
+    display: none;
+}
