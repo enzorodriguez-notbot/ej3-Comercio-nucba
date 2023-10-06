@@ -67,17 +67,14 @@
     order: 2;
     cursor: pointer;
   }
-
-  .menu-label img {
-    height: 20px;
-    width: 25px;
-  }
-
+  
+  
+  
   #menu-toggle:checked + .nav-links {
     display: flex;
   }
 
-
+  
 
 
   .title h1{
